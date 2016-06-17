@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Fashion Accesories</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+  </head>
+  <body>
+<!-- ..........HEADER.......... -->
+    <header id="header">
+    	<div class=" btn-header">
+    		<div class="container">
+	            <div class="col-md-6 col-sm-6 col-xs-4">
+	                <p>Default Welcome Msg!</p>
+	            </div>
+	            <div class="col-md-6 col-sm-6 col-xs-8">
+	                <div class="btn-group group-one">
+	                <!-- Language -->
+	                  	<div class="btn-group">
+						  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						    <img src="images/flag1.png"> Language <span class="glyphicon glyphicon-chevron-down"></span>
+						  </button>
+						  <ul class="dropdown-menu">
+						    <li><a href="#">Action</a></li>
+						    <li><a href="#">Another action</a></li>
+						    <li><a href="#">Something else here</a></li>
+						    <li role="separator" class="divider"></li>
+						    <li><a href="#">Separated link</a></li>
+						  </ul>
+						</div>
+	                <!-- Currency -->
+	                	<div class="btn-group">
+						  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						    <i class="glyphicon glyphicon-usd"></i> Currency <span class="glyphicon glyphicon-chevron-down"></span>
+						  </button>
+						  <ul class="dropdown-menu">
+					    	<li><a href="#">Action</a></li>
+					    	<li><a href="#">Another action</a></li>
+					    	<li><a href="#">Something else here</a></li>
+					    	<li role="separator" class="divider"></li>
+					    	<li><a href="#">Separated link</a></li>
+						  </ul>
+						</div>
+	                <!-- My Account -->
+	                  	<div class="btn-group">
+						  	<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							    <i class="glyphicon glyphicon-user"></i> My Account <span class="glyphicon glyphicon-chevron-down"></span>
+						  	</button>
+						  	<ul class="dropdown-menu">
+				    		  <li><a href="#">Action</a></li>
+						      <li><a href="#">Another action</a></li>
+						      <li><a href="#">Something else here</a></li>
+						      <li role="separator" class="divider"></li>
+						      <li><a href="#">Separated link</a></li>
+						  	</ul>
+						</div>
+	                </div>
+	            </div>
+            </div>
+    	</div>
+		<!-- Logo -->
+        <div class=" log">
+        	<div class="container">
+	        	<!-- Opening -->
+	        	<div class="col-md-4 col-sm-4 col-xs-4">
+	        		<div class="media">
+					  <div class="media-left">
+					    <a href="#">
+					      <span class="glyphicon glyphicon-time"></span>
+					    </a>
+					  </div>
+					  <div class="media-body">
+					    <h4 class="media-heading">OPENNING TIME</h4>
+					    <h6>9:00 AM - 10:00 PM</h6>
+					  </div>
+					</div>
+	        	</div>
+	        	<!-- Logo -->
+	        	<div class="col-md-4 col-xs-4">
+	        		<img class="img-responsive" src="images/logo.png">
+	        	</div>
+	        	<!-- Search -->
+	        	<div class="col-md-offset-1 col-md-3 col-xs-4">
+	        		<div class="input-group">
+					  <input type="search" class="form-control search" placeholder="Search" aria-describedby="basic-addon2">
+					  <span class="input-group-addon buscar" id="basic-addon2"><i class="glyphicon glyphicon-search"></i> </span>
+					</div>
+	        	</div>
+        	</div>
+        </div>
+	        <!-- Navegador -->
+	        <div class=" navegador">
+	        	<div class="navbar-inverse" role="banner">
+		            <div class="container">
+		                <div class="navbar-header">
+		                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		                        <span class="sr-only">Toggle navigation</span>
+		                        <span class="icon-bar"></span>
+		                        <span class="icon-bar"></span>
+		                        <span class="icon-bar"></span>
+		                    </button>
+		                    
+		                </div>
+		                <div class="collapse navbar-collapse">
+		                    <ul class="nav navbar-nav">
+		                        <li class="active"><a href="index.html">HOME</a></li>
+		                        <li class=""><a href="contact.html">CONTACT US</a>
+		                        </li>
+		                    </ul>
+		                    <ul class="nav navbar-nav navbar-right my-cart">
+						      	<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> <i class="glyphicon glyphicon-shopping-cart"></i> My Cart </a>
+							        <ul class="dropdown-menu">
+							          <li><a href="#">Sub-Total</a></li>
+							          <li><a href="#">Eco Tax (-2.00)</a></li>
+							          <li><a href="#">VAT (20%)</a></li>
+							        </ul>
+						      	</li>
+						    </ul>
+		                </div>
+		            </div>
+		        </div>
+	        </div>
+    </header>
+<!-- ..........Carousel.......... -->
+    <section id="carousel">
+    	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		  <!-- Indicators -->
+		  <ol class="carousel-indicators">
+		    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		    <li data-target="#myCarousel" data-slide-to="1"></li>
+		  </ol>
+
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner" role="listbox">
+		    <div class="item active">
+		      <img class="img-responsive" src="images/slider1.jpg" alt="Chania">
+		      <div class="carousel-caption">
+		        <h3>AUTUMN/WINTER LOOKBOOK</h3>
+		        <p>- 2016 COLLECTION -</p>
+		      </div>
+		    </div>
+
+		    <div class="item">
+		      <img class="img-responsive" src="images/slider2.jpg" alt="Chania">
+		      <div class="carousel-caption">
+		        <h3>AUTUMN/WINTER LOOKBOOK</h3>
+		        <p>- 2016 COLLECTION -</p>
+		      </div>
+		    </div>
+		  </div>
+
+		  <!-- Left and right controls -->
+		  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+		    <span  aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+		    <span  aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
+    </section>
+<!-- ..........Accessories1.......... -->
+    <section id="accessories1">
+    	<div class="container">
+    		<!-- Banners -->
+    		<div class="row banners">
+    			<div class="col-md-5 col-sm-6 col-xs-12">
+    				<img class="img-responsive" src="images/banner1.jpg">
+    			</div>
+    			<div class="col-md-7 col-sm-6 col-xs-12">
+    				<img class="img-responsive" src="images/banner2.jpg">
+    			</div>
+    		</div>
+			<!-- Menu accessories -->
+			<div class="row">
+				<div class="col-md-4 col-xs-12">
+					<div class="lineas">
+						<hr>
+						<hr>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-10">
+					<ul class="nav nav-tabs">
+					  <li class="active"><a href="#">LATEST</a></li>
+					  <li><a href="#">BESTSELLER</a></li>
+					  <li><a href="#">SALE</a></li>
+					</ul>
+				</div>
+				<div class="col-md-4 col-xs-12">
+					<div class="lineas">
+						<hr>
+						<hr>
+					</div>
+				</div>
+			</div>
+			<!-- Accessories -->
+			<div class="row">
+			  <!-- Primer accessorie -->
+			  <div class="col-md-3 col-sm-6 col-xs-12">
+			    <a href="" class="thumbnail text-center">
+			      <img src="images/a1.jpg" alt="Delver Wide">
+			      <h6 class="new">NEW</h6>
+			      <div class="caption">
+			        <h5>Delver Wide</h5>
+			        <p><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star-empty"></i><i class="glyphicon glyphicon-star-empty"></i> </p>
+			        <p class="precio">$218.00</p>
+			      </div>
+			    </a>
+			  </div>
+			  <!-- Segundo accessorie -->
+			  <div class="col-md-3 col-sm-6 col-xs-12">
+			    <a href="" class="thumbnail text-center">
+			      <img src="images/b1.jpg" alt="Delver Wide">
+			      <h6 class="sale">SALE</h6>
+			      <h6 class="new">NEW</h6>
+			      <div class="caption">
+			        <h5>Delver Wide</h5>
+			        <p><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star-empty"></i><i class="glyphicon glyphicon-star-empty"></i> </p>
+			        <p class="precio"><i>$242.00</i>&nbsp; &nbsp; $218.00</p>
+			      </div>
+			    </a>
+			  </div>
+			  <!-- Tercer accessorie -->
+			  <div class="col-md-3 col-sm-6 col-xs-12">
+			    <a href="" class="thumbnail text-center">
+			      <img src="images/c1.jpg" alt="Delver Wide">
+			      <h6 class="sale">SALE</h6>
+			      <div class="caption">
+			        <h5>Delver Wide</h5>
+			        <p><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star-empty"></i><i class="glyphicon glyphicon-star-empty"></i> </p>
+			        <p class="precio"><i>$242.00</i>&nbsp; &nbsp; $218.00</p>
+			      </div>
+			    </a>
+			  </div>
+			  <!-- Cuarto accessorie -->
+			  <div class="col-md-3 col-sm-6 col-xs-12">
+			    <a href="" class="thumbnail text-center">
+			      <img src="images/d1.jpg" alt="Delver Wide">
+			      <h6 class="new">NEW</h6>
+			      <div class="caption">
+			        <h5>Delver Wide</h5>
+			        <p><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star"></i><i class="glyphicon glyphicon-star-empty"></i><i class="glyphicon glyphicon-star-empty"></i> </p>
+			        <p class="precio">$218.00</p>
+			      </div>
+			    </a>
+			  </div>
+			</div>
+    	</div>
+    </section>
+<!-- ..........Clients.......... -->
+    <section id="clients">
+    	<div class="container-fluid">
+    		<div class="row">
+    			<div class="col-md-2 col-sm-6 col-xs-6">
+    				<img class="img-responsive" src="images/client1.jpg">
+    			</div>
+    			<div class="col-md-2 col-sm-6 col-xs-6">
+    				<img class="img-responsive" src="images/client2.jpg">
+    			</div>
+    			<div class="col-md-2 col-sm-6 col-xs-6">
+    				<img class="img-responsive" src="images/client3.jpg">
+    			</div>
+    			<div class="col-md-2 col-sm-6 col-xs-6">
+    				<img class="img-responsive" src="images/client4.jpg">
+    			</div>
+    			<div class="col-md-2 col-sm-6 col-xs-6">
+    				<img class="img-responsive" src="images/client5.jpg">
+    			</div>
+    			<div class="col-md-2 col-sm-6 col-xs-6">
+    				<img class="img-responsive" src="images/client6.jpg">
+    			</div>
+    		</div>
+    	</div>
+    </section>
+<!-- ..........Accessories2.......... -->
+    <section id="accessories2">
+    	<div class="container">
+    		<div class="row">
+				<div class="col-md-4 col-xs-12">
+					<div class="lineas">
+						<hr>
+						<hr>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-10">
+					<ul class="nav nav-tabs">
+					  <li class="active"><a href="#">CLOTHING</a></li>
+					  <li><a href="#">EQUIPMENTS</a></li>
+					  <li><a href="#">JEWELLERY</a></li>
+					</ul>
+				</div>
+				<div class="col-md-4 col-xs-12">
+					<div class="lineas">
+						<hr>
+						<hr>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<!-- Primer clothing -->
+				<div class="col-md-4 col-md-4 col-xs-12">
+					<div class="media">
+					  <div class="media-left">
+					    <a href="#">
+					      <img class="media-object img-thumbnail" src="images/a2.jpg" alt="...">
+					      <h6 class="sale">SALE</h6>
+					      <h6 class="new">NEW</h6>
+					    </a>
+					  </div>
+					  <div class="media-body">
+					    <h5 class="media-heading">Deliver Wided</h5>
+					    <p class="precio"><i>$242.00</i>&nbsp; &nbsp; $218.00</p>
+					    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+					    <button class="btn btn-block"><i class="glyphicon glyphicon-shopping-cart"></i> Add to Cart</button>
+					  </div>
+					</div>
+				</div>
+				<!-- Segundo clothing -->
+				<div class="col-md-4 col-md-4 col-xs-12">
+					<div class="media">
+					  <div class="media-left">
+					    <a href="#">
+					      <img class="media-object img-thumbnail" src="images/d2.jpg" alt="...">
+					      <h6 class="new">NEW</h6>
+					    </a>
+					  </div>
+					  <div class="media-body">
+					    <h5 class="media-heading">Deliver Wided</h5>
+					    <p class="precio"><i>$242.00</i>&nbsp; &nbsp; $218.00</p>
+					    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+					    <button class="btn btn-block"><i class="glyphicon glyphicon-shopping-cart"></i> Add to Cart</button>
+					  </div>
+					</div>
+				</div>
+				<!-- Tercer clothing -->
+				<div class="col-md-4 col-md-4 col-xs-12">
+					<div class="media">
+					  <div class="media-left">
+					    <a href="#">
+					      <img class="media-object img-thumbnail" src="images/g2.jpg" alt="...">
+					    </a>
+					  </div>
+					  <div class="media-body">
+					    <h5 class="media-heading">Deliver Wided</h5>
+					    <p class="precio"><i>$242.00</i>&nbsp; &nbsp; $218.00</p>
+					    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+					    <button class="btn btn-block"><i class="glyphicon glyphicon-shopping-cart"></i> Add to Cart</button>
+					  </div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<!-- Cuarto clothing -->
+				<div class="col-md-4 col-md-4 col-xs-12">
+					<div class="media">
+					  <div class="media-left">
+					    <a href="#">
+					      <img class="media-object img-thumbnail" src="images/c2.jpg" alt="...">
+					      <h6 class="new">NEW</h6>
+					    </a>
+					  </div>
+					  <div class="media-body">
+					    <h5 class="media-heading">Deliver Wided</h5>
+					    <p class="precio"><i>$242.00</i>&nbsp; &nbsp; $218.00</p>
+					    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+					    <button class="btn btn-block"><i class="glyphicon glyphicon-shopping-cart"></i> Add to Cart</button>
+					  </div>
+					</div>
+				</div>
+				<!-- Quinto clothing -->
+				<div class="col-md-4 col-md-4 col-xs-12">
+					<div class="media">
+					  <div class="media-left">
+					    <a href="#">
+					      <img class="media-object img-thumbnail" src="images/j2.jpg" alt="...">
+					      <h6 class="sale">SALE</h6>
+					    </a>
+					  </div>
+					  <div class="media-body">
+					    <h5 class="media-heading">Deliver Wided</h5>
+					    <p class="precio"><i>$242.00</i>&nbsp; &nbsp; $218.00</p>
+					    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+					    <button class="btn btn-block"><i class="glyphicon glyphicon-shopping-cart"></i> Add to Cart</button>
+					  </div>
+					</div>
+				</div>
+				<!-- Sexto clothing -->
+				<div class="col-md-4 col-md-4 col-xs-12">
+					<div class="media">
+					  <div class="media-left">
+					    <a href="#">
+					      <img class="media-object img-thumbnail" src="images/e2.jpg" alt="...">
+					      <h6 class="new">NEW</h6>
+					    </a>
+					  </div>
+					  <div class="media-body">
+					    <h5 class="media-heading">Deliver Wided</h5>
+					    <p class="precio"><i>$242.00</i>&nbsp; &nbsp; $218.00</p>
+					    <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+					    <button class="btn btn-block"><i class="glyphicon glyphicon-shopping-cart"></i> Add to Cart</button>
+					  </div>
+					</div>
+				</div>
+			</div>
+    	</div>
+    </section>
+<!-- ..........Blog.......... -->
+    <section id="blog">
+    	<div class="container">
+    		<div class="row">
+				<div class="col-md-5 col-xs-12">
+					<div class="lineas">
+						<hr>
+						<hr>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-2 text-center">
+					<span class="fa fa-angle-left angle"></span>
+					<h3>BLOG</h3>
+					<span class="fa fa-angle-right angle"></span>
+				</div>
+				<div class="col-md-5 col-xs-12">
+					<div class="lineas">
+						<hr>
+						<hr>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 col-sm-6 col-xs-12 blog">
+			      	<img src="images/blog1.jpg" alt="blog1">
+			      	<div class="caption">
+				       <h4>THE SAMPLE HEADING TITLE</h4>
+				       <p class="fecha">27/11/2015</p>
+				       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim magnam natus...</p>
+				       <a href="#">Read more...</a>
+			      	</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 blog">
+			      	<img src="images/blog2.jpg" alt="blog2">
+			      	<div class="caption">
+				       <h4>THE SAMPLE HEADING TITLE</h4>
+				       <p class="fecha">27/11/2015</p>
+				       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim magnam natus...</p>
+				       <a href="#">Read more...</a>
+			      	</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 blog">
+			      	<img src="images/blog3.jpg" alt="blog3">
+			      	<div class="caption">
+				       <h4>THE SAMPLE HEADING TITLE</h4>
+				       <p class="fecha">27/11/2015</p>
+				       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim magnam natus...</p>
+				       <a href="#">Read more...</a>
+			      	</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 blog">
+			      	<img src="images/blog1.jpg" alt="blog1">
+			      	<div class="caption">
+				       <h4>THE SAMPLE HEADING TITLE</h4>
+				       <p class="fecha">27/11/2015</p>
+				       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim magnam natus...</p>
+				       <a href="#">Read more...</a>
+		      	  	</div>
+				</div>
+			</div>
+			<!-- Promociones -->
+			<div class="row">
+				<div class="col-md-4 col-sm-4 col-xs-12">
+					<div class="media text-center">
+					  <div class="media-left">
+					    <a href="#">
+					      <span class="fa fa-phone-square"></span>
+					    </a>
+					  </div>
+					  <div class="media-body">
+					    <h4 class="media-heading">ORDER ONLINE NOW</h4>
+					    <p>Call Us:(0123) 456 789</p>
+					  </div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-12">
+					<div class="media text-center">
+					  <div class="media-left">
+					    <a href="#">
+					      <span class="fa fa-plane"></span>
+					    </a>
+					  </div>
+					  <div class="media-body">
+					    <h4 class="media-heading">ORDER ONLINE NOW</h4>
+					    <p>Call Us:(0123) 456 789</p>
+					  </div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-12">
+					<div class="media text-center">
+					  <div class="media-left">
+					    <a href="#">
+					      <span class="fa fa-money"></span>
+					    </a>
+					  </div>
+					  <div class="media-body">
+					    <h4 class="media-heading">ORDER ONLINE NOW</h4>
+					    <p>Call Us:(0123) 456 789</p>
+					  </div>
+					</div>
+				</div>
+			</div>
+    	</div>
+    </section>
+<!-- ..........Footer.......... -->
+    <footer id="footer">
+    	<div class="container footer">
+    		<div class="col-md-3 col-md-3 col-xs-12">
+    			<h4>ACCESSORIES</h4>
+    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+    			<div class="redes-sociales">
+    				<a href=""><span class="fa fa-facebook"></span></a>
+	        		<a href=""><span class="fa fa-twitter"></span></a>
+	        		<a href=""><span class="fa fa-rss"></span></a>
+	        		<a href=""><span class="fa fa-skype"></span></a>
+	        		<a href=""><span class="fa fa-dribbble"></span></a>
+    			</div>
+    		</div>
+    		<div  class="col-md-2 col-sm-2 col-xs-4">
+    			<h4>MY ACCOUNT</h4>
+    			<ul>
+    				<li><a href=""><i class="fa fa-caret-right"></i> My Account</a></li>
+    				<li><a href=""><i class="fa fa-caret-right"></i> Order History</a></li>
+    				<li><a href=""><i class="fa fa-caret-right"></i> Wish List</a></li>
+    				<li><a href=""><i class="fa fa-caret-right"></i> Newsletter</a></li>
+    			</ul>
+    		</div>
+    		<div  class="col-md-2 col-sm-2 col-xs-4">
+    			<h4>INFORMATION</h4>
+    			<ul>
+    				<li><a href=""><i class="fa fa-caret-right"></i> My Account</a></li>
+    				<li><a href=""><i class="fa fa-caret-right"></i> Order History</a></li>
+    				<li><a href=""><i class="fa fa-caret-right"></i> Wish List</a></li>
+    				<li><a href=""><i class="fa fa-caret-right"></i> Newsletter</a></li>
+    			</ul>
+    		</div>
+    		<div  class="col-md-2 col-sm-2 col-xs-4">
+    			<h4>EXTRAS</h4>
+    			<ul>
+    				<li><a href=""><i class="fa fa-caret-right"></i> My Account</a></li>
+    				<li><a href=""><i class="fa fa-caret-right"></i> Order History</a></li>
+    				<li><a href=""><i class="fa fa-caret-right"></i> Wish List</a></li>
+    				<li><a href=""><i class="fa fa-caret-right"></i> Newsletter</a></li>
+    			</ul>
+    		</div>
+    		<div class="col-md-3 col-md-3 col-xs-12">
+    			<h4>ABOUT US</h4>
+    			<div class="media text-center">
+				  <div class="media-left">
+			      	<span class="fa fa-map-marker"></span>
+				  </div>
+				  <div class="media-body">
+				    <p class="text-left">8901 Marmora Road, Glasgow DO4 89 GR, New York</p>
+				  </div>
+				</div>
+				<div class="media text-center">
+				  <div class="media-left">
+			      	<span class="fa fa-phone"></span>
+				  </div>
+				  <div class="media-body">
+				    <p class="text-left">(0123)456789</p>
+				    <p class="text-left">(0987)456789</p>
+				  </div>
+				</div>
+				<div class="media text-center">
+				  <div class="media-left">
+			      	<span class="fa fa-envelope"></span>
+				  </div>
+				  <div class="media-body">
+				    <p class="text-left">admin@bootexpert.com</p>
+				  </div>
+				</div>
+    		</div>
+    	</div>
+    	<div class="foot">
+    		<div class="container">
+    			<div class="col-md-6 col-sm-6 col-xs-12">
+    				<p>Copyright 2015 <a href="">BootExperts</a> All rights reserved.</p>
+    			</div>
+    			<div class="col-md-6 col-sm-6 col-xs-12">
+    				<a href="">
+    					<img src="images/payment.png">
+    				</a>
+    			</div>
+    		</div>
+    	</div>
+    </footer>
+<a class="hidden-xs" href="#header"><div class="glyphicon glyphicon-chevron-up up"></div></a>
+
+<!-- .....Script..... -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>

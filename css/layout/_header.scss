@@ -1,0 +1,71 @@
+header {
+	background: #EEE;
+	.log {
+		background: white;
+		color: $text-color;
+		padding: 3% 0;
+		a {
+			font-size: 45px;
+			color: $text-color;
+		}
+	}
+	.btn-header {
+		color: $text-color;
+		padding: 1% 0;
+		.group-one {
+			float: right;
+		}
+		.btn-default {
+			color: $text-color;
+			background-color: transparent;
+			border-color: transparent;
+		}
+	}
+	.search {
+		border-right: transparent;
+	}
+	.buscar {
+		background: transparent;
+		border-left: transparent;
+	}
+	.navegador {
+		padding: 0;
+	}
+	.navbar-inverse {
+		background: #EEE;
+		.navbar-nav {
+			a {
+				color: black;
+				font-weight: bolder;
+				&:hover {
+					background: $first-color;
+					color: white;
+				}
+			}
+			.active {
+				a, a:hover {
+					background: $first-color;
+					color: white;
+				}
+			}
+		}
+	}
+	.navbar-toggle {
+		background: $first-color;
+	}
+	.my-cart {
+		background-color: #3C3636;
+		a {
+			color: white !important;
+		}
+	}
+	.dropdown-menu {
+		background: rgba(255, 255, 255, 0.8);
+		a {
+			color: $text-color !important;
+			&:hover {
+				background: rgba(85, 85, 85, 0.16) !important;
+			}
+		}
+	}
+}

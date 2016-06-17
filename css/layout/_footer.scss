@@ -1,0 +1,51 @@
+footer {
+	background: #EEE;
+	color: $text-color;
+	h4 {
+		font-weight: 600;
+	}
+	a {
+		color: $text-color;
+		&:hover {
+			text-decoration: none;
+			color: $text-color;
+		}
+	}
+	.redes-sociales {
+		margin: 15px;
+		a {
+			margin: 5px;
+			padding: 10px;
+			background: white;
+		}
+	}
+	ul {
+		list-style-type: none;
+		padding: 0;
+		li {
+			margin: 10px;
+		}
+	}
+	.media {
+		margin-top: 0;
+		span {
+			background-color: white;
+			padding: 10px;
+			border-radius: 100%;
+		}
+	}
+}
+.footer {
+	padding: 20px 0;
+}
+.foot {
+	background: $text-color;
+	color: white;
+	padding: 20px 0 10px;
+	a {
+	color: $first-color;
+	}
+	img {
+		float: right;
+	}
+}
